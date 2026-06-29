@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidade - Escrituração</title>
+    <style>
+        :root {
+            --bg-color: #121214;
+            --card-bg: #202024;
+            --text-color: #e1e1e6;
+            --primary-color: #04d361;
+            --accent-color: #a8a8b3;
+            --alert-color: #f75a68;
+            --info-bg: #29292e;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--primary-color);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+
+        .meta-info {
+            background-color: var(--card-bg);
+            padding: 15px 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            margin-bottom: 30px;
+        }
+
+        .meta-info p {
+            margin: 5px 0;
+            font-size: 0.95rem;
+            color: var(--accent-color);
+        }
+
+        .meta-info strong {
+            color: var(--text-color);
+        }
+
+        .links-uteis {
+            margin-bottom: 30px;
+        }
+
+        .btn-link {
+            display: inline-block;
+            background-color: var(--info-bg);
+            color: var(--text-color);
+            padding: 10px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            border: 1px solid #323238;
+            transition: all 0.2s;
+        }
+
+        .btn-link:hover {
+            border-color: var(--primary-color);
+            background-color: var(--card-bg);
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            border-bottom: 1px solid #323238;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+
+        .topics-list {
+            padding-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        .topics-list li {
+            margin-bottom: 8px;
+            color: var(--text-color);
+        }
+
+        .notes-box {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #323238;
+            margin-bottom: 20px;
+        }
+
+        .formula {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            padding: 15px;
+            background-color: var(--info-bg);
+            border-radius: 6px;
+            margin: 20px 0;
+            letter-spacing: 2px;
+        }
+
+        .macete-box {
+            background-color: rgba(4, 211, 97, 0.1);
+            border: 1px dashed var(--primary-color);
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+
+        .alert-box {
+            background-color: rgba(247, 90, 104, 0.1);
+            border-left: 4px solid var(--alert-color);
+            padding: 15px;
+            border-radius: 0 6px 6px 0;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="../index.html" class="back-link">← Voltar para o Início</a>
+        
+        <h1>001 - Escrituração</h1>
+        
+        <div class="meta-info">
+            <p><strong>Professor:</strong> Rodrigo Albuquerque</p>
+            <p><strong>Naturalidade:</strong> Recifense</p>
+            <p><strong>Trabalha:</strong> Sefaz-MA</p>
+        </div>
+
+        <div class="links-uteis">
+            <a href="https://reversoacademy.themembers.com.br/curso/4022/contabilidade-escrituracao-171220241284553470/4daaedf8-f014-4944-b547-9833d0822e52?index=0" target="_blank" class="btn-link">🔗 Aula na Reverso Academy</a>
+            <a href="https://www.tecconcursos.com.br/caderno/abrir/Q4CojZ" target="_blank" class="btn-link">📝 Caderno do Tec Concursos</a>
+        </div>
+
+        <h2>Ementa / Tópicos</h2>
+        <ul class="topics-list">
+            <li>Normas</li>
+            <li>Livros Contábeis</li>
+            <li>Lançamentos</li>
+            <li>Método das Partidas Dobradas</li>
+            <li>Balancete de Verificação</li>
+        </ul>
+
+        <h2>Anotações de Estudo</h2>
+        
+        <div class="notes-box">
+            <p><strong>Conceito Base:</strong> A escrituração estuda onde eu debito, onde eu credito, o que é crédito e o que é débito.</p>
+            
+            <div class="formula">
+                A = P + PL
+            </div>
+
+            <p>🔄 <strong>Método das Partidas Dobradas:</strong> Para existir um crédito deve existir um débito. O saldo que eu creditar é exatamente o mesmo saldo que eu vou debitar.</p>
+		<img src = "contabilidade-001-escrituracao-001.png">
+        </div>
+
+        <h2>Dinâmica das Contas</h2>
+        <div class="notes-box">
+            <p>🔹 <strong>Contas Devedoras (Ativo):</strong> Aumentam a <u>débito</u> e diminuem a <u>crédito</u>.</p>
+            <p>🔸 <strong>Contas Credoras (Passivo):</strong> Aumentam a <u>crédito</u> e diminuem a <u>débito</u>.</p>
+
+            <div class="macete-box">
+                💡 <strong>Mnemônico para salvar:</strong> Nunca esquecer do <strong>PAC</strong> (<strong>P</strong>assivo <strong>A</strong>umenta a <strong>C</strong>rédito).
+            </div>
+
+            <div class="alert-box">
+                ⚠️ <strong>Atenção:</strong> Conta Retificadora é o oposto, ou seja, <strong>é !PAC</strong> (Não segue a regra geral do grupo).
+            </div>
+
+		<img src = "contabilidade-001-escrituracao-002.png">
+		<img src = "contabilidade-001-escrituracao-003.png">
+        </div>
+
+        <h2>Legislação e Restrições</h2>
+        <div class="notes-box">
+            <p>🚫 <strong>Auditor Fiscal:</strong> Por ser um servidor público, <strong>não pode ser sócio administrador</strong> de nenhuma empresa. No entanto, é permitido ser <strong>sócio quotista</strong>.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
